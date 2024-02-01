@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Building Certificate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 30px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #2E8B57;
+        }
+
+        section {
+            text-align: center;
+            padding: 30px;
+            position: relative;
+        }
+
+        h1 {
+            color: black;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        .types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background-color: #fff; /* Background color for the boxes */
+            border-radius: 5px;
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+
+        .certification {
+            text-align: center;
+        }
+
+        .certification img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px; /* Adjust the margin as needed */
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .num, .pand, .mat {
+            background-color: #fff; /* Background color for the boxes */
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        /* Media query for mobile view */
+        @media only screen and (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav {
+                margin-top: 15px;
+            }
+
+            .content {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="python.html">Python Libraries</a>
+            <a href="graphs.html">Graphs</a>
+        </nav>
+    </header>
+
+    <section id="python-libraries">
+        <h2>Python Libraries</h2>
+    </section>
+    
+    <div class="grid-container">
+        <div class="num">
+            <img src="images/num.jpeg" alt="nump">
+            <h2>NUMPY </h2>
+            <p> NumPy is a powerful Python library for numerical 
+                computing that provides support for large, multi-dimensional arrays and matrices,
+                along with a collection of mathematical functions to operate on these arrays.</p>
+        </div>
+
+        <div class="pand">
+            <img src="images/pand.jpeg" alt="pand">
+            <h2>PANDAS </h2>
+            <p>Pandas, beloved for their endearing appearance, are 
+                black-and-white bears native to China. Classified as vulnerable,
+                 they primarily consume bamboo but are members of the order Carnivora. 
+                 Conservation efforts aim to protect their habitats and ensure 
+                 the survival of this charismatic species.</p>
+        </div>
+
+        <div class="mat">
+            <img src="images/mat.jpeg" alt="matp">
+            <h2>MATPLOTLIB </h2>
+            <p>Matplotlib is a versatile Python library for creating static, animated, 
+                and interactive visualizations. With a user-friendly interface, it supports 
+                a variety of plot types, making it a go-to tool for data visualization tasks.
+                 Its flexibility and integration with Jupyter notebooks make it widely used in 
+                 scientific computing and data analysis.</p>
+        </div>
+    </div>
+
+    <footer>
+        Presented by P.N BHAVYA SREE, KEERTHI M, GANASHREE PM, BRAHATHI, N.SRINIDHI KROUNCHA
+    </footer>
+</body>
+</html>
