@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Green Building Certificate</title>
     <style>
         body {
@@ -12,7 +11,7 @@
             padding: 0;
             background-color: #f0f0f0;
         }
-        
+
         header {
             background-color: #4CAF50;
             padding: 30px;
@@ -53,7 +52,7 @@
             top: 10px;
             left: 50%;
             transform: translateX(-50%);
-            font-size: 2.5em; /* Adjust the font size as needed */
+            font-size: 2.5em;
         }
 
         img {
@@ -61,11 +60,9 @@
             height: auto;
         }
 
-        footer {
+        .content {
+            padding: 20px;
             text-align: center;
-            padding: 15px;
-            background-color: #4CAF50;
-            color: #fff;
         }
 
         h2 {
@@ -77,9 +74,9 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             padding: 20px;
-            background-color: #fff; /* Background color for the boxes */
+            background-color: #fff;
             border-radius: 5px;
-            margin-top: 20px; /* Adjust the margin as needed */
+            margin-top: 20px;
         }
 
         .certification {
@@ -89,7 +86,14 @@
         .certification img {
             max-width: 100%;
             height: auto;
-            margin-bottom: 10px; /* Adjust the margin as needed */
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: #fff;
         }
 
         /* Media query for mobile view */
@@ -102,16 +106,8 @@
                 margin-top: 15px;
             }
 
-            .content {
-                padding: 15px;
-            }
-
             h1 {
-                font-size: 10.5em;
-            }
-
-            h2 {
-                font-size: 1.2em;
+                font-size: 2em;
             }
         }
     </style>
@@ -132,41 +128,28 @@
 
     <div class="content">
         <h2>Green Building</h2>
-        <p>A green building is an eco-friendly and sustainable structure
-            designed to minimize its environmental impact. It incorporates features 
-            like energy and water efficiency, the use of sustainable materials, 
-            waste reduction, and considerations for indoor air quality. 
-            Green buildings aim to promote resource conservation, 
-            reduce greenhouse gas emissions, and enhance overall environmental sustainability.</p>
+        <p>A green building is an eco-friendly and sustainable structure designed to minimize its environmental impact. It incorporates features like energy and water efficiency, the use of sustainable materials, waste reduction, and considerations for indoor air quality. Green buildings aim to promote resource conservation, reduce greenhouse gas emissions, and enhance overall environmental sustainability.</p>
     </div>
 
     <div class="types">
         <div class="certification">
             <img src="images/leed.jpeg" alt="LEED Certification">
-            <p>LEED (Leadership in Energy and Environmental Design) certification is a 
-                widely recognized standard for assessing and promoting
-                the sustainability of buildings based on various environmental 
-                performance criteria.</p>
+            <p>LEED (Leadership in Energy and Environmental Design) certification is a widely recognized standard for assessing and promoting the sustainability of buildings based on various environmental performance criteria.</p>
         </div>
 
         <div class="certification">
             <img src="images/breeam.jpeg" alt="BREEAM Certification">
-            <p>BREEAM (Building Research Establishment Environmental Assessment Method) is
-                a widely used green building certification system that assesses and rates
-                the environmental performance of buildings based on various sustainability criteria.</p>
+            <p>BREEAM (Building Research Establishment Environmental Assessment Method) is a widely used green building certification system that assesses and rates the environmental performance of buildings based on various sustainability criteria.</p>
         </div>
 
         <div class="certification">
             <img src="images/energy.jpeg" alt="ENERGY STAR Certification">
-            <p>ENERGY STAR certification is a government-backed designation 
-                awarded to energy-efficient products, buildings, 
-                and industrial facilities that meet strict energy performance criteria.</p>
+            <p>ENERGY STAR certification is a government-backed designation awarded to energy-efficient products, buildings, and industrial facilities that meet strict energy performance criteria.</p>
         </div>
 
         <div class="certification">
             <img src="images/igbc.jpeg" alt="IGBC Certification">
-            <p>IGBC certification, offered by the Indian Green Building Council, recognizes buildings that
-                meet environmentally sustainable and energy-efficient standards.</p>
+            <p>IGBC certification, offered by the Indian Green Building Council, recognizes buildings that meet environmentally sustainable and energy-efficient standards.</p>
         </div>
     </div>
 
@@ -175,7 +158,5 @@
     </footer>
 </body>
 </html>
-
-
 
 
